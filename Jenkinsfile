@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/user/repository.git'
+                git 'https://github.com/nayub007/centralgit.git'
             }
         }
         stage('Login to Amazon ECR') {
